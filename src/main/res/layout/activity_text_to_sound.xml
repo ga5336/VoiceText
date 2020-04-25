@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="352dp"
+        android:layout_height="570dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Text -> Voice"
+        android:textSize="36dp"/>
+
+    <ImageView
+        android:id="@+id/mic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="TODO"
+        android:background="@drawable/mic"/>
+
+    <Button
+        android:id="@+id/bu1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="630dp"/>
+
+    <ImageButton
+        android:id="@+id/change_tts"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/speaker" />
+
+
+
+
+</RelativeLayout>
